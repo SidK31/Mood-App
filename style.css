@@ -1,0 +1,170 @@
+/* for page */
+body {
+    background-color: #0f172a;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    transition: background-color 0.5s ease;
+}
+
+/* for buttons */
+button {
+    padding: 12px 25px;
+    background-color: #38bdf8;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* for input fields */
+input {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 12px 20px;
+    border: 2px solid #334155;
+    border-radius: 12px;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-width: 200px;
+}
+
+input[type="text"]:focus {
+    border-color: #38bdf8;
+    background-color: #0f172a;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.1);
+}
+
+input[type="text"]::placeholder {
+    color: #64748b;
+}
+
+/* Mood App Section */
+.mood-section {
+    margin-top: 50px;
+    padding: 30px 20px;
+    background-color: rgba(30, 41, 59, 0.5);
+    border-radius: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mood-section h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #f1f5f9;
+}
+
+.mood-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mood-buttons button {
+    padding: 14px 28px;
+    background-color: #334155;
+    border: 2px solid #475569;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #f1f5f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 120px;
+}
+
+.mood-buttons button:hover {
+    background-color: #475569;
+    border-color: #38bdf8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.2);
+}
+
+.mood-buttons button:active {
+    transform: translateY(0);
+}
+
+/* Active Mood Button State */
+.active-mood {
+    transform: scale(1.05) !important;
+    background-color: #0ea5e9 !important;
+    border: 2px solid #38bdf8 !important;
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.6),
+        0 0 40px rgba(56, 189, 248, 0.3) !important;
+}
+
+/* Layout Improvements */
+
+/* Hero Section */
+.hero-section {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    padding: 40px 20px;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #f1f5f9;
+}
+
+.hero-tagline {
+    font-size: 20px;
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+.hero-cta {
+    font-size: 16px;
+    color: #64748b;
+}
+
+/* User Greeting Section */
+.user-section {
+    max-width: 700px;
+    margin: 0 auto 60px;
+    padding: 30px 20px;
+}
+
+.section-heading {
+    font-size: 28px;
+    color: #f1f5f9;
+    margin-bottom: 30px;
+}
+
+.greeting-section {
+    margin: 25px 0;
+}
+
+.button-group {
+    margin-top: 25px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Content Width & Spacing */
+section {
+    padding: 20px;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 10px 0;
+}
